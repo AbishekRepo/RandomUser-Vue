@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    height: 260px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px ;
+}
+
+h1,h3{
+    opacity: 0.8;
+}
+
+button{
+    background-color: white; 
+    color: black; 
+    border: 0.8px solid #011202;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: #05011236; 
+}
+
